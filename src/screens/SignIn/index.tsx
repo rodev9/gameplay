@@ -16,7 +16,11 @@ export function SignIn() {
         translucent
       />
 
-      <Image source={illustraionImg} resizeMode="stretch" style={styles.image} />
+      <Image
+        source={illustraionImg}
+        resizeMode="stretch"
+        style={styles.image}
+      />
 
       <View style={styles.content}>
         <Text style={styles.title}>
@@ -30,10 +34,7 @@ export function SignIn() {
           favoritos com os teus amigos
         </Text>
 
-        <ButtonIcon
-          title="Entrar com Discord"
-          activeOpacity={0.7}
-        />
+        <ButtonIcon title="Entrar com Discord" activeOpacity={0.7} />
       </View>
     </View>
   )
