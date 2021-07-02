@@ -1,4 +1,6 @@
-declare module "*.png" {
-  const value: import('react-native').ImageRequireSource
-  export = value
+declare module '*.png' {
+  import { ImageRequireSource } from 'react-native'
+
+  const value: ImageRequireSource
+  export default value
 }

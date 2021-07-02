@@ -23,11 +23,6 @@ export const styles = StyleSheet.create({
     borderColor: theme.colors.line
   },
 
-  icon: {
-    width: 24,
-    height: 18
-  },
-
   title: {
     flex: 1,
     color: theme.colors.heading,
