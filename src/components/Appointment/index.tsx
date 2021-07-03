@@ -12,12 +12,7 @@ import CalendarSvg from '../../assets/calendar.svg'
 import { theme } from '../../global/styles/theme'
 import { styles } from './styles'
 
-export type GuildProps = {
-  id: string
-  name: string
-  icon?: string | null
-  owner: boolean
-}
+import { GuildProps } from '../Guild'
 
 export type AppointmentProps = {
   id: string

@@ -2,6 +2,7 @@ import React from 'react'
 import { View, Text, Image } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 
+import { Background } from '../../components/Background'
 import { ButtonIcon } from '../../components/ButtonIcon'
 
 import illustraionImg from '../../assets/illustration.png'
@@ -16,7 +17,7 @@ export function SignIn() {
   }
 
   return (
-    <View style={styles.container}>
+    <Background style={styles.container}>
       <Image
         source={illustraionImg}
         resizeMode="stretch"
@@ -34,6 +35,6 @@ export function SignIn() {
 
         <ButtonIcon title="Entrar com Discord" onPress={handleSignIn} />
       </View>
-    </View>
+    </Background>
   )
 }

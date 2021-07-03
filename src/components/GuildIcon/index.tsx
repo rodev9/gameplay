@@ -6,13 +6,13 @@ import { theme } from '../../global/styles/theme'
 import { styles } from './styles'
 
 export function GuildIcon() {
-  const { secondary50, secondary70 } = theme.colors
+  const { secondary50, secondary60 } = theme.colors
   const uri = 'https://cdn.discordapp.com/embed/avatars/0.png'
 
   return (
     <LinearGradient
       style={styles.container}
-      colors={[secondary50, secondary70]}
+      colors={[secondary50, secondary60]}
     >
       <Image source={{ uri }} resizeMode="cover" style={styles.icon} />
     </LinearGradient>

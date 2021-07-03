@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native'
 export const styles = StyleSheet.create({
   container: {
     width: 64,
-    height: 64,
+    height: 68,
     borderRadius: 8,
     marginRight: 20,
 
@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
 
   icon: {
     width: 61,
-    height: 61,
+    height: 65,
     borderRadius: 8
   }
 })

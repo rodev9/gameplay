@@ -2,8 +2,8 @@ import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
   container: {
-    width: 49,
-    height: 49,
+    width: 48,
+    height: 48,
     marginRight: 22,
     borderRadius: 8,
 
@@ -12,8 +12,8 @@ export const styles = StyleSheet.create({
   },
 
   avatar: {
-    width: 46,
-    height: 46,
+    width: 45,
+    height: 45,
     borderRadius: 8
   }
 })
