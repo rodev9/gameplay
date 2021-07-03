@@ -33,9 +33,11 @@ export function Guilds({ onGuildSelected }: Props) {
       renderItem={({ item }) => (
         <Guild data={item} onPress={() => onGuildSelected(item)} />
       )}
-      ItemSeparatorComponent={Divider}
+      ItemSeparatorComponent={() => <Divider center />}
+      ListHeaderComponent={() => <Divider center />}
       showsVerticalScrollIndicator={false}
       style={styles.container}
+      contentContainerStyle={{ paddingTop: 74, paddingBottom: 40 }}
     />
   )
 }

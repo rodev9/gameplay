@@ -5,8 +5,7 @@ import { getBottomSpace } from 'react-native-iphone-x-helper'
 export const styles = StyleSheet.create({
   banner: {
     width: '100%',
-    height: 234,
-    marginBottom: 24
+    height: 234
   },
 
   bannerContent: {
@@ -25,6 +24,7 @@ export const styles = StyleSheet.create({
 
   subtitle: {
     fontSize: 13,
+    lineHeight: 21,
     fontFamily: theme.fonts.text400,
     color: theme.colors.heading,
     marginTop: 12

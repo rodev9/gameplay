@@ -10,7 +10,10 @@ export const styles = StyleSheet.create({
     borderRadius: 8,
     fontFamily: theme.fonts.text400,
     fontSize: 13,
+    padding: 16,
     marginRight: 4,
-    textAlign: 'center'
+    textAlignVertical: 'top',
+    borderWidth: 1,
+    borderColor: theme.colors.secondary50
   }
 })

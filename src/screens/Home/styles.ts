@@ -11,10 +11,6 @@ export const styles = StyleSheet.create({
     marginBottom: 42
   },
 
-  content: {
-    marginTop: 30
-  },
-
   appointments: {
     marginTop: 24,
     marginLeft: 24
