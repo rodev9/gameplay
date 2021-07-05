@@ -7,7 +7,7 @@ import { CreateAppointment } from '../screens/CreateAppointment'
 
 const { Navigator, Screen } = createStackNavigator()
 
-export function AuthRoutes() {
+export function AppRoutes() {
   return (
     <Navigator headerMode="none">
       <Screen name="Home" component={Home} />

@@ -1,5 +1,0 @@
-export const REDIRECT_URI = 'https://auth.expo.io/@romilo/gameplay'
-export const SCOPE = 'identify%20email%20guilds'
-export const RESPONSE_TYPE = 'token'
-export const CLIENT_ID = '860966031764619274'
-export const CDN = 'https://cdn.discordapp.com'
