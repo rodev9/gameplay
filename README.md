@@ -58,7 +58,7 @@ Podes visualizar o layout do projeto através do link abaixo:
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Vê o ficheiro [LICENSE](LICENSE.md) para mais detalhes.
+Este projeto está sob a licença MIT. Vê o ficheiro [LICENSE](LICENSE.MD) para mais detalhes.
 
 ---
 Feito com 🧡 by Rodrigo na [NLW Together](https://nextlevelweek.com/)
